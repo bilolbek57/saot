@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "soat";
+    src: url(./digital-7/digital-7.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time{
+    font-size: 22vw;
+    font-family: "soat";
+}
+.day,
+.year{
+    color: #555;
+}
